@@ -92,8 +92,6 @@ export default {
         <span v-else class="anim-options">
             <span>Duration
             <input type="number" v-model="anim.duration" @blur="saveDuration()"></span>
-            <span>Loop
-            <input type="checkbox" v-model="anim.loop"></span>
             <span>Active
             <input type="checkbox" v-model="anim.active"></span>
             <span>
